@@ -5,4 +5,17 @@
 
 .nav{
     border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.nav a:hover{
+    font-size: x-large;
 }
