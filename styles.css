@@ -13,6 +13,18 @@ video {
     z-index: -1;
 }
 
+span{
+    background: rgba(100, 100, 100, 0.5);
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+    z-index: -1;
+}
+
 button{
     width: 175px;
     padding: 10px 0;
@@ -24,6 +36,11 @@ button{
     cursor: pointer;
     overflow: hidden;
     font-size: 18px;
+    position: relative;
+}
+
+button:hover span{
+    width: 100%;
 }
 
 nav{
