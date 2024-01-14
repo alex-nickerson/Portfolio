@@ -31,3 +31,10 @@ nav a:hover{
     justify-content: center;
     margin-top: 15%;
 }
+
+.about-me{
+    border: 1px solid blue;
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+}
