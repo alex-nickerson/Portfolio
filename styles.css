@@ -78,6 +78,7 @@ nav a:hover{
     border: 2px solid green;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .projects img{
@@ -143,4 +144,8 @@ nav a:hover{
 .project2-about .images{
     border: 1px solid red;
     margin-top: 5%;
+}
+
+.contact{
+    text-align: center;
 }
