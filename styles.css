@@ -1,6 +1,7 @@
 *{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     scroll-behavior: smooth;
+    color: white;
 }
 
 video {
@@ -10,6 +11,19 @@ video {
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
+}
+
+button{
+    width: 175px;
+    padding: 10px 0;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid white;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 18px;
 }
 
 nav{
@@ -70,11 +84,14 @@ nav a:hover{
     border: 1px solid blue;
     display: flex;
     justify-content: center;
+    gap: 5%;
 }
 
 .github img{
     width: 50px;
     height: 50px;
+    border: 2px solid  white;
+    border-radius: 50%;
 }
 
 .projects-title{
@@ -88,6 +105,8 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .projects img{
