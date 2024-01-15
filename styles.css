@@ -26,8 +26,8 @@ span{
 }
 
 button{
-    width: 175px;
-    padding: 15px 0;
+    width: 100px;
+    padding: 15px;
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid white;
@@ -84,7 +84,7 @@ nav a:hover{
 .name{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .about-me{
@@ -102,7 +102,7 @@ nav a:hover{
     display: flex;
     justify-content: center;
     gap: 5%;
-    padding: 10px;
+    padding-top: 25px;
 }
 
 .github img{
@@ -133,14 +133,15 @@ nav a:hover{
 .projects-title{
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
 
 .projects{
     display: flex;
     flex-direction: column;
     gap: -5px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 11%;
+    margin-right: 11%;
 }
 
 .projects img{
@@ -175,7 +176,7 @@ nav a:hover{
 }
 
 .project1-about .about{
-    margin-top: 25%;
+    margin-top: 80px;
     font-size: large;
 }
 
@@ -210,7 +211,7 @@ nav a:hover{
 }
 
 .project2-about .about{
-    margin-top: 25%;
+    margin-top: 80px;
     font-size: large;
 }
 
@@ -220,4 +221,5 @@ nav a:hover{
 
 .contact{
     text-align: center;
+    font-size: 20px;
 }
