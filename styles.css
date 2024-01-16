@@ -186,7 +186,7 @@ nav a:hover{
 }
 
 .project1-about .about{
-    margin-top: 80px;
+    margin-top: 40px;
     font-size: large;
 }
 
@@ -221,11 +221,47 @@ nav a:hover{
 }
 
 .project2-about .about{
-    margin-top: 80px;
+    margin-top: 60px;
     font-size: large;
 }
 
 .project2-about .images{
+    margin-top: 5%;
+}
+
+.project3{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    margin-top: 30px;
+}
+
+.project3-img{
+    border: 5px solid white;
+    width: 55%;
+    height: 85%;
+    border-radius: 10px;
+    position: relative;
+    top: 5%;
+}
+
+.project3-about{
+    width: 50%;
+    text-align: center;
+}
+
+.project3-about img{
+    width: 75px;
+    height: 75px;
+}
+
+.project3-about .about{
+    margin-top: 60px;
+    font-size: large;
+}
+
+.project3-about .images{
     margin-top: 5%;
 }
 
