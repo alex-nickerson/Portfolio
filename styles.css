@@ -85,6 +85,7 @@ nav a:hover{
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    font-size: x-large;
 }
 
 .about-me{
@@ -111,6 +112,7 @@ nav a:hover{
     height: 50px;
     border: 2px solid white;
     border-radius: 50%;
+    background-color: white;
 }
 
 .tech-stack{
@@ -135,6 +137,7 @@ nav a:hover{
     display: flex;
     justify-content: center;
     padding: 10px;
+    font-size: x-large;
 }
 
 .projects{
@@ -143,6 +146,12 @@ nav a:hover{
     gap: -5px;
     margin-left: 18%;
     margin-right: 20%;
+}
+
+.project-css{
+    max-height: 60px;
+    max-width: 60px;
+    transform: translateY(-7.5px);
 }
 
 .projects img{
