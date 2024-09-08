@@ -1,0 +1,64 @@
+@media screen and (max-width: 1500px) {
+
+    nav{
+        display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .name{
+        margin-top: 10px;
+    }
+
+    .project1, .project2, .project3, .project4, .project5{
+        flex-direction: column;
+    }
+
+    .project1-img, .project3-img, .project5-img{
+        width: 100%;
+    }
+
+    .project1-about, .project2-about, .project3-about, .project4-about, .project5-about{
+        width: 100%;
+    }
+    
+    .project2-img, .project4-img{
+        display:none;
+    }
+
+    .project2-img-mobile, .project4-img-mobile{
+        display:block;
+        width: 100%;
+    }
+
+    .project2-about, .project3-about, .project5-about{
+        margin-top: -20px;
+    }
+
+    .project4-about{
+        margin-top: -10%;
+    }
+
+    .project2{
+        padding-top: 20px
+    }
+
+    .project3{
+        padding-top: 200px;
+    }
+
+    .project4{
+        padding-top: 130px;
+    }
+
+    .project5{
+        padding-top: 230px;
+    }
+
+    .contact{
+        padding-top: 250px;
+    }
+
+}

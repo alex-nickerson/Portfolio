@@ -201,13 +201,17 @@ nav a:hover{
     gap: 2%;
 }
 
-.project2-img{
+.project2-img, .project2-img-mobile{
     border: 5px solid white;
     width: 50%;
     height: 85%;
     border-radius: 10px;
     position: relative;
     top: 5%;
+}
+
+.project2-img-mobile{
+    display:none;
 }
 
 .project2-about{
@@ -273,7 +277,7 @@ nav a:hover{
     margin-top: 30px;
 }
 
-.project4-img{
+.project4-img, .project4-img-mobile{
     border: 5px solid white;
     width: 55%;
     height: 85%;
