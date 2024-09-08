@@ -277,6 +277,10 @@ nav a:hover{
     margin-top: 30px;
 }
 
+.project4-img-mobile{
+    display: none;
+}
+
 .project4-img, .project4-img-mobile{
     border: 5px solid white;
     width: 55%;
