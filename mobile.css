@@ -1,4 +1,4 @@
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
 
     nav{
         display: none;
@@ -12,53 +12,38 @@
         margin-top: 10px;
     }
 
-    .project1, .project2, .project3, .project4, .project5{
+    .mobile-text{
+        display: flex;
+    }
+
+    .project{
+        height: 400px;
+        display: flex;
+    }
+
+    .projects{
+        display: flex;
         flex-direction: column;
+        max-width: 1100px;
+        width: 80vw;
     }
 
-    .project1-img, .project3-img, .project5-img{
-        width: 100%;
+    .project-img{
+        height: 50%;
     }
 
-    .project1-about, .project2-about, .project3-about, .project4-about, .project5-about{
-        width: 100%;
-    }
-    
-    .project2-img, .project4-img{
-        display:none;
+    .projects .images{
+        display: none;
     }
 
-    .project2-img-mobile, .project4-img-mobile{
-        display:block;
-        width: 100%;
+    .project-about .about p{
+        font-size: 16px;
     }
 
-    .project2-about, .project3-about, .project5-about{
-        margin-top: -20px;
-    }
+}
 
-    .project4-about{
-        margin-top: -10%;
+@media screen and (max-width: 625px) {
+    .project-about .about p{
+        display: none;
     }
-
-    .project2{
-        padding-top: 20px
-    }
-
-    .project3{
-        padding-top: 200px;
-    }
-
-    .project4{
-        padding-top: 130px;
-    }
-
-    .project5{
-        padding-top: 230px;
-    }
-
-    .contact{
-        padding-top: 250px;
-    }
-
 }

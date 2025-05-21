@@ -7,13 +7,6 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="mobile.css">
     <link rel="icon" href="images/AN.png">
-    <style>
-        body{
-            opacity: 0;
-            transition: opacity 1.5s;
-            background-color: black;
-        }
-    </style>
 </head>
 <body onload="document.body.style.opacity='1'">
     <video autoplay muted loop id="myVideo">
@@ -30,15 +23,17 @@
     <div class="name" id="name">
         <h1>Alex Nickerson</h1>
     </div>
-    <div class="about-me">
-        <p>
-            I am a full-stack developer studying Computer Science at the University
-            of Windsor! I have participated in multiple programming
-            competitions, where most recently our team advanced to
-            regionals at the International Collegiate programming
-            Competition. <br> Below, you can check out my Github, Resume, <br>
-            tech-stack, and my projects!
-        </p>
+    <div class="about-container">
+        <div class="about-me">
+            <p>
+                I am a full-stack developer studying Computer Science at the University
+                of Windsor! I have participated in multiple programming
+                competitions, where most recently our team advanced to
+                regionals at the International Collegiate programming
+                Competition. <br> Below, you can check out my Github, Resume, <br>
+                tech-stack, and my projects!
+            </p>
+        </div>
     </div>
     <div class="github">
         <a href="https://github.com/alex-nickerson" target="_blank"><img src="images/github-logo.png" alt="github-logo"></a>
@@ -53,128 +48,128 @@
         <img src="images/javascript-logo.png" alt="JavaScript-logo">
         <img src="images/react-logo.png" alt="React-logo">
     </div>
-    <div class="projects-title">
+    <p class="mobile-text">View on desktop for the best experience!</p>
+    <hr>
+    <div class="projects-title" id="projects">
         <h1>Projects</h1>
     </div>
-    <div class = projects id="projects">
-        <div class="project1">
-            <div class="project1-img">
-                <img src="images/website-landing-page.png" alt="landing page for website" class="web-img">
-            </div>
-            <div class="project1-about">
-                <div class="about">
-                    <h2>Portfolio Website</h2>
-                    <p>In this project I built a fully functional
-                        website to show off my skills and projects.
-                    </p>
+    <div class="projects-container">
+        <div class = projects>
+            <div class="project">
+                <div class="project-img">
+                    <img src="images/website-landing-page.png" alt="landing page for website" class="web-img">
                 </div>
-                <div class="buttons">
-                    <a href="https://github.com/alex-nickerson/Portfolio" target="_blank"><button><span></span>Code</button></a>
-                    <a href="https://alex-nickerson.github.io/Portfolio/" target="_blank"><button><span></span>Website</button></a>
-                </div>
-                <div class="images">
-                    <img src="images/html-logo.png" alt="html logo">
-                    <img src="images/css-logo.png" alt="css logo" class="project-css">
-                </div>
-            </div>
-        </div>
-        <div class="project2">
-            <div class="project2-img-mobile">
-                <img src="images/template-landing-page.png" alt="Template Landing Page">
-            </div>
-            <div class="project2-about">
-                <div class="about">
-                    <h2>Landing Page Template</h2>
-                    <p>In this project I utilized and refined my
-                        skills in HTML and CSS by creating a seemless
-                        landing page template.
-                    </p>
-                </div>
-                <div class="buttons">
-                    <a href="https://github.com/alex-nickerson/Landing-Page-Template" target="_blank"><button><span></span>Code</button></a>
-                    <a href="https://alex-nickerson.github.io/Landing-Page-Template/" target="_blank"><button><span></span>Website</button></a>
-                </div>
-                <div class="images">
-                    <img src="images/html-logo.png" alt="html logo">
-                    <img src="images/css-logo.png" alt="css logo" class="project-css">
+                <div class="project-about">
+                    <div class="about">
+                        <h2>Portfolio Website</h2>
+                        <p>In this project I built a fully functional
+                            website to show off my skills and projects.
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <a href="https://github.com/alex-nickerson/Portfolio" target="_blank"><button><span></span>Code</button></a>
+                        <a href="https://alex-nickerson.github.io/Portfolio/" target="_blank"><button><span></span>Website</button></a>
+                    </div>
+                    <div class="images">
+                        <img src="images/html-logo.png" alt="html logo">
+                        <img src="images/css-logo.png" alt="css logo" class="project-css">
+                    </div>
                 </div>
             </div>
-            <div class="project2-img">
-                <img src="images/template-landing-page.png" alt="Template Landing Page">
-            </div>
-        </div>
-        <div class="project3">
-            <div class="project3-img">
-                <img src="images/rps-landing.png" alt="landing page for rock paper scissors website" class="rps-landing">
-            </div>
-            <div class="project3-about">
-                <div class="about">
-                    <h2>Rock Paper Scissors</h2>
-                    <p>In this project I developed fundamental JavaScript skills
-                        by building a Rock Paper Scissors game versus a computer.
-                    </p>
+            <div class="project">
+                <div class="project-about">
+                    <div class="about">
+                        <h2>Landing Page Template</h2>
+                        <p>In this project I utilized and refined my
+                            skills in HTML and CSS by creating a seemless
+                            landing page template.
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <a href="https://github.com/alex-nickerson/Landing-Page-Template" target="_blank"><button><span></span>Code</button></a>
+                        <a href="https://alex-nickerson.github.io/Landing-Page-Template/" target="_blank"><button><span></span>Website</button></a>
+                    </div>
+                    <div class="images">
+                        <img src="images/html-logo.png" alt="html logo">
+                        <img src="images/css-logo.png" alt="css logo" class="project-css">
+                    </div>
                 </div>
-                <div class="buttons">
-                    <a href="https://github.com/alex-nickerson/rock-paper-scissors" target="_blank"><button><span></span>Code</button></a>
-                    <a href="https://alex-nickerson.github.io/Rock-Paper-Scissors/" target="_blank"><button><span></span>Website</button></a>
-                </div>
-                <div class="images">
-                    <img src="images/html-logo.png" alt="html logo">
-                    <img src="images/css-logo.png" alt="css logo" class="project-css">
-                    <img src="images/javascript-logo.png" alt="javascript logo">
+                <div class="project-img">
+                    <img src="images/template-landing-page.png" alt="Template Landing Page">
                 </div>
             </div>
-        </div>
-    <div class="project4">
-        <div class="project4-img-mobile">
-            <img src="images/royaltransfer.png" alt="royal transfer landing page">
-        </div>
-        <div class="project4-about">
-            <div class="about">
-                <h2>Royal Transfer</h2>
-                <p>In this project I worked with a teammate to develop a website for a client. The purpose of this website
-                    is to help their small business. Through this project I further developed my skills in HTML, CSS, and JavaScript. I also 
-                    learned about formatting a website for mobile viewing and functionality.
-                </p>
+            <div class="project">
+                <div class="project-img">
+                    <img src="images/rps-landing.png" alt="landing page for rock paper scissors website" class="rps-landing">
+                </div>
+                <div class="project-about">
+                    <div class="about">
+                        <h2>Rock Paper Scissors</h2>
+                        <p>In this project I developed fundamental JavaScript skills
+                            by building a Rock Paper Scissors game versus a computer.
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <a href="https://github.com/alex-nickerson/rock-paper-scissors" target="_blank"><button><span></span>Code</button></a>
+                        <a href="https://alex-nickerson.github.io/Rock-Paper-Scissors/" target="_blank"><button><span></span>Website</button></a>
+                    </div>
+                    <div class="images">
+                        <img src="images/html-logo.png" alt="html logo">
+                        <img src="images/css-logo.png" alt="css logo" class="project-css">
+                        <img src="images/javascript-logo.png" alt="javascript logo">
+                    </div>
+                </div>
             </div>
-            <div class="buttons">
-                <a href="https://github.com/alex-nickerson/Car-Booking-Service" target="_blank"><button><span></span>Code</button></a>
-                <a href="https://alex-nickerson.github.io/Car-Booking-Service/" target="_blank"><button><span></span>Website</button></a>
+            <div class="project">
+                <div class="project-about">
+                    <div class="about">
+                        <h2>Royal Transfer</h2>
+                        <p>In this project I worked with a teammate to develop a website for a client. The purpose of this website
+                            is to help their small business. Through this project I further developed my skills in HTML, CSS, and JavaScript. I also 
+                            learned about formatting a website for mobile viewing and functionality.
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <a href="https://github.com/alex-nickerson/Car-Booking-Service" target="_blank"><button><span></span>Code</button></a>
+                        <a href="https://alex-nickerson.github.io/Car-Booking-Service/" target="_blank"><button><span></span>Website</button></a>
+                    </div>
+                    <div class="images">
+                        <img src="images/html-logo.png" alt="html logo">
+                        <img src="images/css-logo.png" alt="css logo" class="project-css">
+                        <img src="images/javascript-logo.png" alt="javascript logo">
+                    </div>
+                </div>
+                <div class="project-img">
+                    <img src="images/royaltransfer.png" alt="royal transfer landing page" class="rt-landing">
+                </div>
             </div>
-            <div class="images">
-                <img src="images/html-logo.png" alt="html logo">
-                <img src="images/css-logo.png" alt="css logo" class="project-css">
-                <img src="images/javascript-logo.png" alt="javascript logo">
-            </div>
-        </div>
-        <div class="project4-img">
-            <img src="images/royaltransfer.png" alt="royal transfer landing page" class="rt-landing">
-        </div>
-    </div>
-    <div class="project5">
-        <div class="project5-img">
-            <img src="images/tictactoe.png" alt="landing page for tic tac toe website" class="ttt-landing">
-        </div>
-        <div class="project5-about">
-            <div class="about">
-                <h2>Tic Tac Toe</h2>
-                <p>In this project I further developed my knowledge in JavaScript while learning React by following
-                    the React tutorial. I then used my skills in HTML and CSS to create a easy to use
-                    design for the website.
-                </p>
-            </div>
-            <div class="buttons">
-                <a href="https://github.com/alex-nickerson/tic-tac-toe" target="_blank"><button><span></span>Code</button></a>
-                <a href="https://alex-nickerson.github.io/Tic-Tac-Toe/" target="_blank"><button><span></span>Website</button></a>
-            </div>
-            <div class="images">
-                <img src="images/html-logo.png" alt="html logo">
-                <img src="images/css-logo.png" alt="css logo" class="project-css">
-                <img src="images/javascript-logo.png" alt="javascript logo">
-                <img src="images/react-logo.png" alt="react logo">
+            <div class="project">
+                <div class="project-img">
+                    <img src="images/tictactoe.png" alt="landing page for tic tac toe website" class="ttt-landing">
+                </div>
+                <div class="project-about">
+                    <div class="about">
+                        <h2>Tic Tac Toe</h2>
+                        <p>In this project I further developed my knowledge in JavaScript while learning React by following
+                            the React tutorial. I then used my skills in HTML and CSS to create a easy to use
+                            design for the website.
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <a href="https://github.com/alex-nickerson/tic-tac-toe" target="_blank"><button><span></span>Code</button></a>
+                        <a href="https://alex-nickerson.github.io/Tic-Tac-Toe/" target="_blank"><button><span></span>Website</button></a>
+                    </div>
+                    <div class="images">
+                        <img src="images/html-logo.png" alt="html logo">
+                        <img src="images/css-logo.png" alt="css logo" class="project-css">
+                        <img src="images/javascript-logo.png" alt="javascript logo">
+                        <img src="images/react-logo.png" alt="react logo">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <hr>
     <div class="contact" id="contact">
         <p>
         Created by: Alex Nickerson <br>
